@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body {
+  font-family: 'Madimi One', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  background-image: url(../IMGS/img-background.jpg);
+  border-radius: 5px;
+  border: 3px solid;
+  box-shadow: 20px 10px 10px #80808085;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  border-radius: 5px;
+  background-color: #fceef0;
+}
+
+input[type='number'] {
+  width: 50px;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.container form .second-one {
+  display: flex;
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 300px;
+  gap: 30px;
+}
+
+.first-one{
+  border: 0px;
+  display: flex;
+  gap: 15px;
+}
+
+legend {
+  font-size: 18px;
+}
+
+form button {
+  font-family: 'Madimi One', cursive;
+  font-size: 20px;
+
+  width: 150px;
+  height: 40px;
+
+  display: inline-block;
+  margin: auto;
+  padding: 5px;
+
+  background-color: #ffc0cb;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #000000;
+}
+
+button:hover {
+  background-color: #f8ccd3;
+}
+
+p{
+  font-size: 20px;
+}
